@@ -1,0 +1,31 @@
+hardware 
+- things we ordered
+- dht 22 or dht 11
+
+software
+- vnc 연결 
+- Thonny 설치(python 3.8)
+- beautifulSoup4 패키지 설치 
+	python -m pip install --upgrade pip
+	pip install beautifulsoup4
+	
+	설치 확인
+	from bs4 import BeautifulSoup
+
+- 유튜브 재생 api
+	유튜브 검색 api 
+	pip3 install --upgrade google-api-python-client
+	pip3 install --upgrade google-auth google-auth-oauthlib google-auth-httplib2
+	
+	음악 출력
+	pip3 install pafy
+	pip3 install ffmpeg-ipython
+	pip3 install youtube-dl
+	sudo apt-get install ffmpeg
+
+- google developer 에서 개인 키 발급 후 code에 입력
+	DEVELOPER_KEY = 'AIzaSyBdKmCZbg1aV1LDuwBYJtWEfG5G3MZUFA8'
+	YOUTUBE_API_SERVICE_NAME = 'youtube' 
+	YOUTUBE_API_VERSION = 'v3'
+	
+
